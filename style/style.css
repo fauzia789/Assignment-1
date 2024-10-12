@@ -1,35 +1,192 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
 .azeret-mono {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
-  }
-*{
+}
+
+* {
     margin: 0px;
     padding: 0px;
 }
-.nav-content{
-  display: flex;
-  justify-content: space-between;
-  margin: 50px 150px;
 
-  }
-  .btn{
-    padding:10px 20px;
-    border: 1px solid rgb(13, 19, 33);;
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     color: rgb(13, 19, 33);
-font-size: 12px;
-font-weight: 600;
-line-height: 16px;
-letter-spacing: 0%;
-opacity: 0.8;
-  }
-  .nav-content h1{
-    color: rgb(13, 19, 33);
-font-size: 20px;
-font-weight: 800;
-line-height: 18px;
-letter-spacing: 0%;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
 
-  }
+.nav-content h1 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0%;
+
+}
+.banner{
+    text-align: center;
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-content{
+padding: 40px 300px;
+
+}
+.banner h1{
+    color: rgb(13, 19, 33);
+font-size: 48px;
+font-weight: 800;
+line-height: 56px;
+letter-spacing: 0%;
+padding-top: 20px;
+}
+.banner p{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+opacity: 0.7;
+padding-top: 20px;
+}
+.banner button{
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: rgb(13, 19, 33);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+   margin-top: 30px;
+}
+.web{
+    margin: 50px 150px;
+}
+.web-content{
+    text-align: center;
+    margin: 20px auto;
+   
+}
+.web-title{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+  padding: 30px 60px;
+}
+.web-content h1{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0%;
+    padding-top: 20px;
+}
+.web-content p{
+    color: rgb(13, 19, 33);
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+opacity: 0.7;
+padding-top: 20px;
+}
+.web-info1{
+    display: flex;
+    justify-content: space-around;
+   margin-top: 50px;
+   align-items: center;
+   border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
+}
+.web-info2{
+    display: flex;
+    justify-content: space-around;
+   margin-top: 50px;
+   align-items: center;
+   border-radius: 16px;
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.web-info3{
+    display: flex;
+    justify-content: space-around;
+   margin-top: 50px;
+   align-items: center;
+   border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
+}
+.web-heading{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-top: 20px;
+    opacity: 0.7;
+}
+.web-desc{
+    color: rgb(13, 19, 33);
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+opacity: 0.7;
+padding-top: 10px;
+}
+.web-btn{
+    padding: 10px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+.inspiration{
+    margin: 50px 150px;
+}
+.ins-content{
+    text-align: center;
+    margin: 20px auto;
+   
+}
+.ins-content h1{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0%;
+    padding-top: 20px;
+}
+.ins-content p{
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    padding-top: 10px;
+}
+.ins-video{
+    align-content: center;
+}
