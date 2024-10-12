@@ -267,8 +267,8 @@ letter-spacing: 0%;
 
 .next-title{
     display: flex;
-    border: 1px solid rgb(96, 86, 96 , 0.7);
-    border-radius: 16px;
+    border: 1px solid rgb(13, 19, 33, 0.15);
+    border-radius: 12px;
     padding: 30px;
     align-items: center;
 justify-content: space-around;
@@ -291,4 +291,53 @@ margin-top: 30px;
     letter-spacing: 0%;
     margin-top: 10px;
     opacity: 0.6;
+}
+.need{
+    margin: 50px 150px;
+  
+}
+.need-content{
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 250px;
+        background-image: url('../assets/handshake.jpg');
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       border-radius: 16px;
+       background-color: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+}
+.need-items{
+padding:80px;
+}
+.need-content h2{
+font-size: 28px;
+font-weight: 800;
+line-height: 18px;
+letter-spacing: 0%;
+padding-bottom: 15px;
+}
+.need-content p{
+font-size: 12px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+padding-bottom: 15px;
+}
+.need-items input{
+    
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+}
+.need-items input[type="text"]{
+width: 60%;
+margin-right: 10px;
+
+}
+.need-items input[type="submit"]{
+width: 10%;
+margin-right: 90px;
+font-weight: 600;
 }
